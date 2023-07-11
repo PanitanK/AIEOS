@@ -1,0 +1,36 @@
+POST https://ipsec.bu.ac.th/ssl-vpn/prelogin.esp?tmp=tmp&clientVer=4100&clientos=Linux
+Connected to 110.49.16.1:443
+SSL negotiation with ipsec.bu.ac.th
+Connected to HTTPS on ipsec.bu.ac.th
+Enter login credentials
+POST https://ipsec.bu.ac.th/ssl-vpn/login.esp
+GlobalProtect login returned authentication-source=Auth-AD
+POST https://ipsec.bu.ac.th/ssl-vpn/getconfig.esp
+Session will expire after 43200 minutes.
+Tunnel timeout (rekey interval) is 180 minutes.
+Idle timeout is 180 minutes.
+Potential IPv6-related GlobalProtect config tag <ipv6-connection>: no
+This build does not support GlobalProtect IPv6 due to a lack of
+of information on how it is configured. Please report this
+to <openconnect-devel@lists.infradead.org>.
+No MTU received. Calculated 1422 for ESP tunnel
+POST https://ipsec.bu.ac.th/ssl-vpn/hipreportcheck.esp
+Connected as 11.11.13.151, using SSL, with ESP in progress
+Failed to connect ESP tunnel; using HTTPS instead.
+SSL read error: The TLS connection was non-properly terminated.; reconnecting.
+Packet receive error: Input/output error
+POST https://ipsec.bu.ac.th/ssl-vpn/getconfig.esp
+SSL negotiation with ipsec.bu.ac.th
+Connected to HTTPS on ipsec.bu.ac.th
+Invalid authentication cookie
+Cookie is no longer valid, ending session
+Reconnect failed
+POST https://ipsec.bu.ac.th/ssl-vpn/logout.esp
+SSL negotiation with ipsec.bu.ac.th
+Connected to HTTPS on ipsec.bu.ac.th
+Invalid user name
+Logout failed.
+RTNETLINK answers: No such process
+RTNETLINK answers: No such process
+Cookie was rejected on reconnection; exiting.
+double free or corruption (out)
